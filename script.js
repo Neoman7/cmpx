@@ -25,17 +25,3 @@ pxInput.addEventListener('input', pxToCm);
 }
 
 main();
-
-
-function findNextSquare(sq) {
-  const rootSquare = Math.sqrt(sq);
-  console.log((rootSquare+1)**2);
-  (rootSquare === 0 ) ? "(rootSquare+1)" : -1;
-
-  }
-
-
-
-findNextSquare(121) 
-findNextSquare(625) 
-findNextSquare(114) 
